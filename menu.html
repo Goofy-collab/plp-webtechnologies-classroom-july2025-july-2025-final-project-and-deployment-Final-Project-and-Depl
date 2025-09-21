@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu — Kibandaski</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kibandaski</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="menu-section container">
+      
+      <!-- Tabs control buttons -->
+      <div class="menu-controls">
+        <button class="tab-btn" data-tab="starters">Starters</button>
+        <button class="tab-btn" data-tab="main">Main</button>
+        <button class="tab-btn" data-tab="drinks">Drinks</button>
+      </div>
+
+      <div id="menu-list" class="menu-list">
+        <!-- Starters (default visible) -->
+        <div class="menu-tab" data-tab-content="starters">
+          <article class="menu-item">
+            <h3>Bruschetta <span class="price">Ksh 700</span></h3>
+            <p>Grilled bread with tomato, basil, garlic.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Soup of the Day <span class="price">Ksh 500</span></h3>
+            <p>Ask staff for today’s soup.</p>
+          </article>
+        </div>
+
+        <!-- Main -->
+        <div class="menu-tab hidden" data-tab-content="main">
+          <article class="menu-item">
+            <h3>Grilled Chicken Sandwich <span class="price">Ksh 900</span></h3>
+            <p>Served with crisp greens and aioli.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Quinoa Salad <span class="price">Ksh 800</span></h3>
+            <p>Seasonal greens, roasted veg, lemon vinaigrette.</p>
+          </article>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-tab hidden" data-tab-content="drinks">
+          <article class="menu-item">
+            <h3>Flat White <span class="price">Ksh 300</span></h3>
+            <p>Espresso and silky steamed milk.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Fresh Orange Juice <span class="price">Ksh 250</span></h3>
+            <p>Cold pressed daily.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="js/main.js"></script>
+  
+</body>
+</html>

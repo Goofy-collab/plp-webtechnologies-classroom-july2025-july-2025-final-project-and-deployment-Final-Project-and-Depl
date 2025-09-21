@@ -1,0 +1,267 @@
+/* global / background */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: orange;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px; 
+  color: #222;
+  line-height: 1.5; 
+}
+
+/* Headings same font & size */
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-size: 20px;   
+  font-weight: bold; 
+  margin: 0.5rem 0;
+}
+
+/* Links, buttons, form inputs also inherit */
+a, button, input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* basic container to center and add padding */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/*header/footer white  */
+.site-header, .site-footer {
+  background: #fff;
+}
+
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #eee;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Simple reset */
+.nav-toggle{
+  display:none;
+  border:0;
+  background:transparent;
+  font-size:1.25rem
+}
+
+/* Hero */
+/* .hero{
+    position:relative;
+    overflow:hidden
+}
+
+.hero-img{
+  width:100%;
+  height:320px;
+  object-fit:cover;
+  filter:brightness(0.85)
+}
+
+.hero-content{
+  position:absolute;
+  left:1rem;
+  bottom:1.5rem;
+  color:#fff
+}
+
+.hero-content h1{
+  font-size:2rem;
+  margin-bottom:0.25rem
+} */
+
+.btn{
+  display:inline-block;
+  background:var(--accent);
+  color:#fff;
+  padding:0.6rem 1rem;
+  border-radius:6px;
+  text-decoration:none
+}
+
+
+/* Cards */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+}
+.card img{
+    width: 100%;          
+    height: auto;         
+    border-radius: 6px;  
+    object-fit: cover;    
+    max-height: 180px;    
+}
+
+
+/* Menu */
+.menu-section h1{
+  margin-bottom:1rem
+}
+
+.menu-controls{
+  display:flex;
+  gap:0.5rem;
+  margin-bottom:1rem
+}
+
+.tab-btn{
+  padding:0.5rem 0.8rem;
+  border:1px solid #ddd;
+  background:#f9f9f9;
+  border-radius:6px
+}
+
+.tab-btn.active{
+  background:var(--accent);
+  color:#fff;
+  border-color:var(--accent)
+}
+
+.menu-list .menu-item{
+  padding:0.6rem 0;
+  border-bottom:1px solid #f0f0f0
+}
+
+.menu-item h3{
+  display:flex;
+  justify-content:space-between
+}
+
+.hidden{
+    display:none;
+}
+
+
+/* Gallery */
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:0.6rem
+}
+
+.gallery-item img{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:6px;
+  transition:transform .25s
+}
+.gallery-item img:hover{
+  transform:scale(1.05)
+}
+
+/* Contact form */
+.form{
+  display:grid;
+  gap:0.6rem;
+  max-width:520px
+}
+
+.form input{
+  padding:0.6rem;
+  border:1px solid #ddd;
+  border-radius:6px}
+
+.form .btn{
+  border:0
+}
+
+.form-msg{
+  margin-top:0.6rem;
+  color:green}
+
+.btn.tab-btn {
+  display: block;
+  margin: 20px auto;   
+  padding: 12px 30px;  
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width:800px){
+.nav-toggle{
+  display:block
+}
+.site-nav{
+  position:absolute;
+  right:1rem;top:64px;
+  background:#fff;
+  padding:0.5rem;
+  border-radius:6px;
+  flex-direction:column;
+  display:none
+}
+.site-nav.show{
+  display:flex
+}
+.hero-img{
+  height:220px
+}
+.hero-content h1{
+  font-size:1.4rem
+}
+}
