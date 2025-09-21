@@ -58,20 +58,20 @@ Kibandaski/
 
 ## 🚀 Deployment
 The project is deployed here:  
-👉 [Live Demo Link](https://your-deployment-link.com)  
+👉 [Live Demo Link](https://goofy-collab.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)  
 
 ---
 
 ## 🚀 How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/kibandaski-website.git
+   git clone https://github.com/Goofy-collab/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
 ````
 
 2. Open the project folder:
 
    ```bash
-   cd kibandaski-website
+   cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
    ```
 3. Open `index.html` in your browser.
 
