@@ -1,90 +1,84 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Kibandaski Restaurant Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+A simple, responsive restaurant website for **Kibandaski**, showcasing a local eatery with hearty meals, drinks, and a welcoming vibe.  
+The website includes an About Us section, an interactive menu with tabs, a gallery, and a reservation form.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🌟 Features
 
-Using your plan, begin building:
+### 🏠 Home Page
+- Clean navigation header  
+- About Us section with a short description  
+- Featured items with images and descriptions  
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+### 🍽 Menu Page
+- Tabbed sections for **Starters**, **Main**, and **Drinks**  
+- Simple interactive switching with JavaScript  
 
-Each page should:
+### 📸 Gallery Page
+- Grid-style gallery with food & restaurant images  
+- Hover effects for a modern look  
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+### 📞 Contact Page
+- Reservation form with input validation (name, email, phone, date, time, number of people)  
+- Form feedback messages with color indicators  
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## 🛠 Tech Stack
+- **HTML5** for structure  
+- **CSS3** for styling (responsive, clean design, flexbox/grid)  
+- **JavaScript (Vanilla JS)** for interactivity:
+  - Menu tab switching
+  - Reservation form validation
+  - Dynamic year in footer
 
 ---
 
-## Deliverables
+## 📂 Folder Structure
 
-1. A GitHub repository containing:
+```
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Kibandaski/
+│── index.html        # Home page
+│── menu.html         # Menu page
+│── gallery.html      # Gallery page
+│── contact.html      # Contact / Reservation page
+│── css/
+│   └── style.css     # Stylesheet
+│── js/
+│   └── main.js       # Interactivity (menu tabs, form validation, nav toggle)
+│── images/           # Website images
+└── README.md         # Project documentation
+
+````
 
 ---
 
-## Outcome
+## 🚀 Deployment
+The project is deployed here:  
+👉 [Live Demo Link](https://your-deployment-link.com)  
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## 🚀 How to Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/kibandaski-website.git
+````
+
+2. Open the project folder:
+
+   ```bash
+   cd kibandaski-website
+   ```
+3. Open `index.html` in your browser.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+
